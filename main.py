@@ -68,7 +68,7 @@ while True:
 		else:
 			last_seen = json_data[id_num]['lastSeenAt'] #записываем строчку с датой lastSeenAt в отдельную переменную для сравнения
 			if last_seen <= str(d_t):       #Если последняя дата меньше или равна заданной дате сравнения / преобразовываем d_t в str, т.к. изначально d_t в формате даты(date.time)
-				print("User", json_data[id_num]['name'], "otpravlen v otdelnie spisok") #выводим на экран какие пользователи отправлены в отдельный список
+				print("User", json_data[id_num]['name'], "Отправлен в отдельный список") #выводим на экран какие пользователи отправлены в отдельный список
 				users.append(json_data[id_num]) #добавляем элемент в конец списка
 				id_sum+=1
 
