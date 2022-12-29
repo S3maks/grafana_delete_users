@@ -1,0 +1,5 @@
+requests==2.25.1
+simplejson==3.17.6
+DateTime==4.7
+systemd-python==234
+argcomplete==1.8.1
